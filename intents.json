@@ -1,0 +1,135 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "reviews",
+      "patterns": [
+            "What do customers say about Fort Specialties?",
+            "Tell me about customer reviews",
+            "How do people rate Fort Specialties?",
+            "Show me some reviews"
+        ],
+      "responses": [
+            "Fort Specialties has an amazing range of products. Their advice on waterproofing and concrete repair was really helpful",
+            "Highly recommend Fort Specialties for all your construction chemical needs. Great products and knowledgeable staff",
+            "Great experience with Fort Specialties. Their concrete repair products are reliable and their customer service is excellent",
+            "The company is excellent, whether in terms of materials or in its after-sales service, or in providing advice and instructions on how to use the materials. Thank you.",
+            "Exceptional service and high-quality products. Fort Specialties is my trusted supplier for concrete repair materials."
+      ]
+    },
+    {
+      "tag": "FORT SPECIALTIES",
+      "patterns": [
+            "Contact",
+            "How to contact",
+            "Connect with you"
+        ],
+      "responses": [
+            "phone: 971 52 334 6103",
+            "email: info@fortspecialtiesuae.com",
+            "website: https://fortspecialtiesuae.com/"
+      ]
+    },
+    {
+      "tag": "Location",
+      "patterns": [
+            "Address",
+            "Location"
+        ],
+      "responses": [
+            "Fort Specialties Trading LLC,\nOpposite to AD Build,\nMusaffah 10, PO Box: 108211,\nAbu Dhabi, UAE"
+      ]
+    },
+    {
+      "tag": "Company Info",
+      "patterns": [
+            "description"
+      ],
+      "responses": [
+            "Fort Specialties is one of the largest construction chemicals showrooms in Abu Dhabi",
+            "We provide a wide range of products and services, including waterproofing and concrete repair",
+            "As the authorized distributor for market-leading brands like Sika, Fosroc, Master Building Solutions",
+            "Terraco, Mapei, and FILA, we ensure top-quality materials and expert advice to meet all your construction needs."
+      ]
+    }
+  ]
+}
